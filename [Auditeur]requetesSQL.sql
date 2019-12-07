@@ -1,3 +1,5 @@
+-- AUDITEUR (dis bismileh et tout vas bien se passer)
+
 
 --- S'inscrisre à une conf [Auditeur]
 INSERT INTO Inscription VALUES 
