@@ -1,4 +1,4 @@
-*Commande pour supprimer les tables : drope TABLE ... * 
+--Commande pour supprimer les tables : drope TABLE ...  
 
 CREATE TABLE Signalement (
 	idUser int PRIMARY KEY,
@@ -38,24 +38,34 @@ CREATE TABLE Souhait (
 CREATE TABLE Conference (
 	idUser int PRIMARY KEY,
 	idConference int, 
-	horaireDebut int ??????????type pas sure; 
-	horaireFin int ???????? 
+	horaireDebut int --??????????type pas sure; 
+	horaireFin int --???????? 
 	nomConf varchar (80),
 	dateConf date,
+	placeDispo int,
+	theme varchar(),
+	information varchar(), --Peut-être une image donc le type est modifier ?
+	article --Contenir des pdf ?
 );
 
 CREATE TABLE Utilisateur(
 	idUser int PRIMARY KEY, 
 	nom varchar (50),
 	prenom varchar (50),
-	motDePasse varchar (10) ??????????pas sure pour le type
+	motDePasse varchar (10) --??????????pas sure pour le type
 	adresseMail varchar (50), 
 	auditeur boolean, 
 	speaker boolean, 
 	organisateur boolean, 
-	identificateurGroupe ????????quel type ????
+	etablissement varchar(),
+	identificateurGroupe --????????quel type ????
 )
 
 CREATE TABLE Communauté (
 	videeeeeeee
+)
+
+CREATE TABLE Question(
+	idUser int PRIMARY KEY, --Id du Speaker
+	contenue varchar()
 )
