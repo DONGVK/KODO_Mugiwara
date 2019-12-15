@@ -54,9 +54,10 @@ CREATE TABLE Utilisateur(
 	prenom varchar (50),
 	motDePasse varchar (10) --??????????pas sure pour le type
 	adresseMail varchar (50), 
-	auditeur boolean, 
+	/*auditeur boolean, 
 	speaker boolean, 
-	organisateur boolean, 
+	organisateur boolean, */
+	statue int, 
 	etablissement varchar(),
 	identificateurGroupe --????????quel type ????
 )
