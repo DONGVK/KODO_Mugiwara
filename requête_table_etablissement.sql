@@ -10,3 +10,8 @@ INSERT INTO Etablissement VALUES ( idEta , responsable, lieu, membre);
 */
 UPDATE Etablissement SET membre = 'nouvelle valeur' WHERE idEta = idEta;
 
+/* ou bien ou récupère les infos de l'établissement et on mets à chaque fois une ligne par membre (donc pas de gros pavé dans le colonne membre)
+/!\ la fonction ne doit pas prendre l'information isue de la colonne membre /!\
+*/
+INSERT INTO Etablissement VALUES ( idEta , responsable, lieu, membre);
+
