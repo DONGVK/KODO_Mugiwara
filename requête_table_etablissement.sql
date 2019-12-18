@@ -8,7 +8,5 @@ INSERT INTO Etablissement VALUES ( idEta , responsable, lieu, membre);
   *Insertion d'un nouveaux membre il faut vérifier que le membre n'est pas mis 2 fois
   *Il ne faut pas oublier que dans la fonction les noms figurer anciennement soit stocké quelque part pour ensuite le remettre
 */
-UPDATE Etablissement
-SET membre = 'nouvelle valeur'
-WHERE idEta = idEta;
+UPDATE Etablissement SET membre = 'nouvelle valeur' WHERE idEta = idEta;
 
