@@ -59,7 +59,9 @@ CREATE TABLE Utilisateur(
 	organisateur boolean, */
 	statue int, 
 	etablissement varchar(),
+	abonnement varchar(),
 	identificateurGroupe --????????quel type ????
+
 )
 
 CREATE TABLE Communauté (
