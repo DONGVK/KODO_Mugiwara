@@ -60,6 +60,7 @@ CREATE TABLE Utilisateur(
 	statue int, 
 	etablissement varchar(),
 	abonnement varchar(),
+	centre_interet varchar(),
 	identificateurGroupe --????????quel type ????
 
 )
