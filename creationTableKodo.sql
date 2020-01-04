@@ -60,10 +60,16 @@ CREATE TABLE Utilisateur(
 	statue int, 
 	etablissement varchar(),
 	abonnement varchar(),
-	centre_interet varchar(),
-	identificateurGroupe --????????quel type ????
+	--centreInteret varchar(),
+	idGroupe integer --Si ne fait pas partie d'un groupe NUL sinon on a l'id du groupe auquel il appartient
 
 )
+
+CREATE TABLE CentreInteret (
+	idUser int PRIMARY KEY, 
+	nomCentreInteret varchar()
+)
+
 
 CREATE TABLE Communauté (
 	videeeeeeee
